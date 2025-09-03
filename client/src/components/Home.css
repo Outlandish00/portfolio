@@ -1,0 +1,20 @@
+.home-root-container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100vw;
+
+}
+.image{
+    height: 100vh;
+    box-sizing: border-box;
+    width: 35vw;
+    border: solid, white;
+}
+.right-side-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+}
