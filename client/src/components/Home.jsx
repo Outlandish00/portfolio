@@ -1,4 +1,6 @@
+import { HomeNavbar } from "./Home-Navbar";
 import "./Home.css";
+import { Navbar } from "./Navbar";
 
 export const Home = () => {
   return (
@@ -14,6 +16,9 @@ export const Home = () => {
             {" "}
             React, JavaScript, C#, .Net, and EFCore
           </span>
+        </div>
+        <div className="navbar-container">
+          <HomeNavbar />
         </div>
       </div>
     </div>

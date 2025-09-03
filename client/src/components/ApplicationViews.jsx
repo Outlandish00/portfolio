@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./Home";
 import { Navbar } from "./Navbar";
+import { AboutMe } from "./AboutMe";
 
 export const ApplicationViews = () => {
   return (
@@ -11,6 +12,14 @@ export const ApplicationViews = () => {
           element={
             <>
               <Home />
+            </>
+          }
+        />
+        <Route
+          path="/about-me"
+          element={
+            <>
+              <AboutMe />
             </>
           }
         />
