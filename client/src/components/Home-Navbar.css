@@ -1,0 +1,12 @@
+.navbar-root-container{
+width: 100%;
+}
+.navbar-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.link-item{
+    cursor: pointer;
+}

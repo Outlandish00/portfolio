@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import "./Navbar.css";
+import "./Home-Navbar.css";
 // this is just basic formatting, still need to implement the links actually directing you to the pages after the pages are set up.
-export const Navbar = () => {
+export const HomeNavbar = () => {
   const navigate = useNavigate();
   return (
     <div className="navbar-root-container">
@@ -9,12 +9,13 @@ export const Navbar = () => {
         <li
           className="link-item"
           onClick={() => {
-            navigate("/");
+            navigate("/about-me");
           }}
         >
-          Home
+          About Me
         </li>
-        <li className="link-item">Interested in my work?</li>
+        <li className="link-item">Projects</li>
+        <li className="link-item">Links</li>
       </ul>
     </div>
   );
