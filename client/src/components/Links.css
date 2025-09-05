@@ -1,0 +1,11 @@
+.links-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.link-button-container{
+    display: flex;
+    justify-content: space-evenly;
+}

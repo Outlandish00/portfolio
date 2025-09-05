@@ -22,7 +22,14 @@ export const HomeNavbar = () => {
         >
           Projects
         </li>
-        <li className="link-item">Links</li>
+        <li
+          className="link-item"
+          onClick={() => {
+            navigate("/links");
+          }}
+        >
+          Links
+        </li>
       </ul>
     </div>
   );

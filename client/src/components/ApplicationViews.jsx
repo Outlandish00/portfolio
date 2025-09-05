@@ -3,6 +3,7 @@ import { Home } from "./Home";
 import { Navbar } from "./Navbar";
 import { AboutMe } from "./AboutMe";
 import { Projects } from "./Projects";
+import { Links } from "./Links";
 
 export const ApplicationViews = () => {
   return (
@@ -29,6 +30,14 @@ export const ApplicationViews = () => {
           element={
             <>
               <Projects />
+            </>
+          }
+        />
+        <Route
+          path="links"
+          element={
+            <>
+              <Links />
             </>
           }
         />
