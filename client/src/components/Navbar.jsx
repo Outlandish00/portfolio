@@ -14,7 +14,14 @@ export const Navbar = () => {
         >
           Home
         </li>
-        <li className="link-item">Interested in my work?</li>
+        <li
+          className="link-item"
+          onClick={() => {
+            navigate("/projects");
+          }}
+        >
+          Interested in my work?
+        </li>
       </ul>
     </div>
   );

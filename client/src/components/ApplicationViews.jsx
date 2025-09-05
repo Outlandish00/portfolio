@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { Home } from "./Home";
 import { Navbar } from "./Navbar";
 import { AboutMe } from "./AboutMe";
+import { Projects } from "./Projects";
 
 export const ApplicationViews = () => {
   return (
@@ -16,10 +17,18 @@ export const ApplicationViews = () => {
           }
         />
         <Route
-          path="/about-me"
+          path="about-me"
           element={
             <>
               <AboutMe />
+            </>
+          }
+        />
+        <Route
+          path="projects"
+          element={
+            <>
+              <Projects />
             </>
           }
         />

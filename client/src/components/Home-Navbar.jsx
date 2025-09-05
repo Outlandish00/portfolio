@@ -14,7 +14,14 @@ export const HomeNavbar = () => {
         >
           About Me
         </li>
-        <li className="link-item">Projects</li>
+        <li
+          className="link-item"
+          onClick={() => {
+            navigate("/projects");
+          }}
+        >
+          Projects
+        </li>
         <li className="link-item">Links</li>
       </ul>
     </div>
