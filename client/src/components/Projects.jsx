@@ -1,3 +1,4 @@
+import { Navbar } from "./Navbar";
 import "./Projects.css";
 
 export const Projects = () => {
@@ -46,6 +47,7 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+      <Navbar />
     </div>
   );
 };
