@@ -1,25 +1,51 @@
 .home-root-container{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content:space-between;
 width: 100vw;
 height: 100vh
 
 }
+.content-container{
+    display: flex;
+    flex-grow: 1;
+}
 .image{
     height: 100%;
     box-sizing: border-box;
-    width: 35vw;
-    border: solid, white;
+    width: 40vw;
+    height: 100%;
+    overflow: hidden;
+    border: 10px solid black;
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 .right-side-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    width:55vw;
     flex-grow: 1;
 }
 .navbar-container{
     display: flex;
     justify-content: center;
+}
+
+.home-header h1{
+font-family: "Cascadia Mono", sans-serif;
+font-size: 5rem;
+color: #00fe34;
+}
+.green{
+  color: #00fe34;  
+}
+.home-body{
+    font-size: 4rem;
 }
